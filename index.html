@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Kumar Selvaraj - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        header {
+            background: #50b3a2;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            background-color: #ddd; /* Placeholder for image */
+        }
+        
+        nav {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .content-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+        }
+        
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .project-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            background-color: #fff;
+        }
+        
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            background-color: #ddd; /* Placeholder for image */
+            margin-bottom: 10px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill-tag {
+            background: #50b3a2;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-item h3 {
+            margin-bottom: 5px;
+        }
+
+        .experience-item .position {
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .experience-item .date {
+            color: #666;
+        }
+        
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .contact-form button {
+            background: #50b3a2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .education-item {
+            margin-bottom: 15px;
+        }
+
+        .education-item h3 {
+            margin-bottom: 5px;
+        }
+
+        .education-item .degree {
+            font-style: italic;
+        }
+
+        .education-item .date {
+            color: #666;
+        }
+
+        ul.bullet-list {
+            padding-left: 20px;
+        }
+
+        ul.bullet-list li {
+            margin-bottom: 8px;
+        }
+
+        .achievements {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="profile-img" alt="Profile Picture">
+            <h1>Manoj Kumar Selvaraj</h1>
+            <p>Robotics Engineer | Computer Vision Specialist | Embedded Systems Developer</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <p>Hello! I'm a Robotics Engineering graduate student at the University of Maryland College Park with professional experience in Computer Vision, AI/ML, and Embedded Systems. I specialize in developing intelligent systems that combine hardware and software solutions for real-world applications.</p>
+            <p>With over 2 years of industry experience at YantraVision Software and Zoho Corp, I've worked on a range of projects from implementing AI-powered defect detection systems to developing high-performance DSP libraries for Xilinx-AMD. I'm passionate about creating autonomous systems and applying my skills in image processing, real-time systems, and embedded development.</p>
+        </section>
+        
+        <section id="education" class="content-section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>University of Maryland College Park</h3>
+                <p class="degree">M.Eng. in Robotics Engineering</p>
+                <p class="date">Jan 2024 - Dec 2025</p>
+                <p>CGPA: 3.5/4.0</p>
+            </div>
+            <div class="education-item">
+                <h3>PSG Institute of Technology and Applied Research</h3>
+                <p class="degree">B.E. Electronics and Communication Engineering</p>
+                <p class="date">Jun 2017 - Apr 2021</p>
+                <p>CGPA: 8.69/10</p>
+            </div>
+        </section>
+
+        <section id="experience" class="content-section">
+            <h2>Work Experience</h2>
+            <div class="experience-item">
+                <h3>YantraVision Software Pvt Ltd, Bangalore</h3>
+                <p class="position">Sr. Software Engineer</p>
+                <p class="date">May 2021 - Dec 2023</p>
+                <h4>Algorithms and AI Inspection</h4>
+                <ul class="bullet-list">
+                    <li>Developed Braille Datasets and implemented a Haar Cascade Classifier for Braille detection in the carton printing industry, achieving ~95.3% accuracy.</li>
+                    <li>Worked on image registration and embossing defect identification in carton printing using Feature Detectors (FFD, SURF) for applications with a high throughput of 50 FPS by leveraging CUDA acceleration and OpenMP for parallel processing.</li>
+                    <li>Implemented defect classification in cartons using YOLOv8.</li>
+                </ul>
+                <h4>DSP Acceleration and Silicon Validation</h4>
+                <ul class="bullet-list">
+                    <li>Worked as a contractor for Xilinx-AMD in the development and benchmarking of DSP libraries for AIE (Multiple arrays of SIMD vector processor) and FPGA using Vitis HLS, and published the performance metrics.</li>
+                    <li>Developed and validated single- and multi-core kernels for AIE1, conducted pre- and post-silicon validation, power characterization, and established a comprehensive regression test suite.</li>
+                    <li>Worked on the application development (Xilinx XRT) for 5G wireless project – FR2 SSB search & decode, reducing the processing time to one-fifth using multithreading and data synchronization techniques.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Zoho Corp, Chennai</h3>
+                <p class="position">Project Trainee</p>
+                <p class="date">Mar 2021 - May 2021</p>
+                <ul class="bullet-list">
+                    <li>Handled backend development and debugging tasks using Python and C++ for the Zoho application "Cliq".</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="projects" class="content-section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <img alt="Autonomous Mobile Robot">
+                    <h3>Autonomous Mobile Robot Development</h3>
+                    <p><strong>Jan 2025 - Present</strong></p>
+                    <p>Designing and building an autonomous mobile robot capable of navigating a Martian-like terrain, integrating sensors for environment mapping and material handling.</p>
+                    <p><em>Technologies: Python, Raspberry Pi, Sensors, Oscilloscope</em></p>
+                </div>
+                <div class="project-card">
+                    <img alt="Autonomous Navigation of TurtleBot">
+                    <h3>Autonomous Navigation of TurtleBot</h3>
+                    <p><strong>Apr 2024 - May 2024</strong></p>
+                    <p>Developed an autonomous system enabling track-following, real-time stop sign detection using YOLO and Haar Cascade, and dynamic object detection using Farneback's optical flow.</p>
+                    <p><em>Technologies: ROS2, OpenCV, YOLO, Image Processing, Gazebo</em></p>
+                </div>
+                <div class="project-card">
+                    <img alt="Intelligent Parking for ADAS">
+                    <h3>Intelligent Parking for ADAS</h3>
+                    <p><strong>Jan 2021 - Jun 2021</strong></p>
+                    <p>Led a team of four to develop an indoor Bluetooth-based localization system for locating empty parking slots and a real-time application to navigate users to available parking spaces within the building.</p>
+                    <p><em>Technologies: ESP32, Embedded C, Bluetooth</em></p>
+                </div>
+                <div class="project-card">
+                    <img alt="Smart Energy Metering System">
+                    <h3>Smart Energy Metering System</h3>
+                    <p><strong>Mar 2020 - Jun 2020</strong></p>
+                    <p>Designed an IoT-based energy meter using sensors to measure power, energy, and efficiency, with real-time data visualization.</p>
+                    <p><em>Technologies: FreeRTOS, Arduino, UART, SPI, MQTT</em></p>
+                </div>
+                <div class="project-card">
+                    <img alt="Hit-and-run Alert System">
+                    <h3>Hit-and-run Alert System</h3>
+                    <p><strong>Aug 2019 - Nov 2019</strong></p>
+                    <p>Designed a hit-and-run detection system using a PIC microcontroller to identify collisions and Zigbee for wireless transmission of the vehicle's number plate and accident location to police stations and hospitals nearby.</p>
+                    <p><em>Technologies: PIC, Bare-Metal Programming, I2C, Proteus, Logic Analyzer</em></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="content-section">
+            <h2>Skills</h2>
+            <h3>Programming</h3>
+            <div class="skills">
+                <span class="skill-tag">C</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Verilog</span>
+                <span class="skill-tag">HLS</span>
+            </div>
+            
+            <h3>Tools & Frameworks</h3>
+            <div class="skills">
+                <span class="skill-tag">MATLAB</span>
+                <span class="skill-tag">FreeRTOS</span>
+                <span class="skill-tag">PyTorch</span>
+                <span class="skill-tag">TensorFlow</span>
+                <span class="skill-tag">CUDA</span>
+                <span class="skill-tag">OpenCV</span>
+                <span class="skill-tag">SolidWorks</span>
+                <span class="skill-tag">Vivado</span>
+                <span class="skill-tag">Proteus</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">ROS2</span>
+            </div>
+            
+            <h3>Hardware</h3>
+            <div class="skills">
+                <span class="skill-tag">PIC Microcontroller</span>
+                <span class="skill-tag">Arduino</span>
+                <span class="skill-tag">Raspberry Pi</span>
+                <span class="skill-tag">ESP32</span>
+                <span class="skill-tag">Jetson Nano</span>
+                <span class="skill-tag">FPGA</span>
+                <span class="skill-tag">STM32</span>
+            </div>
+        </section>
+        
+        <section id="achievements" class="content-section">
+            <h2>Achievements and Leadership</h2>
+            <ul class="bullet-list">
+                <li>Convened a two-day workshop on "Embedded systems - PIC Microcontroller" at PSG iTech, engaging 100+ students.</li>
+                <li>Won Best Project Award - "Hit-and-run Alert System".</li>
+                <li>Published a paper titled "Intelligent Parking for ADAS" at NC2SD 2021.</li>
+            </ul>
+        </section>
+        
+        <section id="contact" class="content-section">
+            <h2>Contact Me</h2>
+            <p>Interested in connecting or discussing potential opportunities? Reach out through the form below or contact me directly.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject">
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/Manojkumar" target="_blank">LinkedIn</a>
+                <a href="https://github.com/" target="_blank">GitHub</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
+            <p>College Park, MD 20783 | Email: manojkumars1119@gmail.com | Phone: (240) 438-2769</p>
+            <p>&copy; 2025 Manoj Kumar Selvaraj. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
