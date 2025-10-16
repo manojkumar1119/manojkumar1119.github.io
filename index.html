@@ -195,7 +195,23 @@
     <div class="container mx-auto px-4">
       <h2 class="text-4xl font-bold text-teal-600 text-center mb-10 animate__animated animate__fadeInUp">Work Experience</h2>
       <div class="space-y-8">
-        <!-- Work Experience Card 1 -->
+        <!-- Work Experience Card 1: 37degrees -->
+        <div class="bg-gray-200 p-6 rounded-lg shadow-lg hover-card relative">
+          <div class="absolute right-4 top-4 bg-white text-sm font-semibold text-gray-700 px-3 py-1 rounded-full border border-gray-300 animate__animated animate__fadeInRight">
+            May 2025 - Present
+          </div>
+          <h3 class="text-2xl font-bold text-teal-600">37degrees, Inc, Chicago</h3>
+          <p class="mt-2 font-semibold">Lead Embedded & Firmware Development Intern</p>
+          <ul class="list-disc list-inside mt-2">
+            <li>Led full lifecycle embedded development for the <strong>CultureON portable incubator</strong>, from prototype through <strong>EVT/DVT/PVT</strong>, overseeing hardware design (RoHS standard), KiCad schematics, PCB layout, board bring-up, and system validation to deliver pilot-ready units.</li>
+            <li>Developed asynchronous firmware drivers on <strong>ESP32-S3 (FreeRTOS)</strong> for multi-sensor and system control tasks achieving <strong>deterministic real-time performance</strong> and stable environmental regulation.</li>
+            <li>Engineered low-power <strong>BLE/Wi-Fi systems</strong> supporting secure credential handoff, OTA updates, and MQTT telemetry, optimizing wireless commissioning and mapping workflows.</li>
+            <li>Built <strong>CI/CD build and test pipelines</strong> integrating Git, and automated regression validation, accelerating firmware release cycles by <strong>~30%</strong>.</li>
+            <li>Defined and developed <strong>manufacturing test software</strong> (factory firmware + desktop automation) reducing board verification time from <strong>~2 hrs to ~30 min</strong> per unit.</li>
+          </ul>
+        </div>
+        
+        <!-- Work Experience Card 2: YantraVision -->
         <div class="bg-gray-200 p-6 rounded-lg shadow-lg hover-card relative">
           <div class="absolute right-4 top-4 bg-white text-sm font-semibold text-gray-700 px-3 py-1 rounded-full border border-gray-300 animate__animated animate__fadeInRight">
             May 2021 - Dec 2023
@@ -222,7 +238,8 @@
             <li>Architected a parallel execution framework for Vivado power routing, managing distribution of <strong>20,000 jobs</strong> across compute clusters.</li>
           </ul>
         </div>
-        <!-- Work Experience Card 2 -->
+        
+        <!-- Work Experience Card 3: Zoho -->
         <div class="bg-gray-200 p-6 rounded-lg shadow-lg hover-card relative">
           <div class="absolute right-4 top-4 bg-white text-sm font-semibold text-gray-700 px-3 py-1 rounded-full border border-gray-300 animate__animated animate__fadeInRight">
             Mar 2021 - May 2021
@@ -237,7 +254,6 @@
       </div>
     </div>
   </section>
-
   <!-- Projects Section -->
   <section id="projects" class="py-20 bg-pink-50 bg-opacity-90">
     <div class="container mx-auto px-4">
@@ -421,3 +437,4 @@
   </script>
 </body>
 </html>
+
